@@ -1,0 +1,106 @@
+/* CSS Document */
+#wrapper{
+    color: #1B1B5E;
+}
+#topHeader{
+    color: #1B1B5E;
+    font-size: 24px;
+    text-align: center;
+}
+#footer{color: #1B1B5E;text-align:center; padding:10px;}
+#main {border-left:thin solid black}
+
+/* Buttons */
+.btn{
+	color: white;
+	background-color: #FFBE2E;
+	border-color: #FFBE2E;
+}
+.btn:hover, .btn:focus{
+	color: #1B1B5E;
+	background-color: #FFBE2E;
+	border-color: #FFBE2E;
+}
+
+body{
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(161,161,161,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(161,161,161,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(161,161,161,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(161,161,161,1.00) 100%);
+}
+
+
+
+
+
+
+/* Navbar */
+.navbar-default {
+    background-color: #1B1B5E;
+    border-color: #1B1B5E;
+}
+
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFBE2E;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #FFBE2E;
+}
+
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #FFBE2E;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #2B2B97;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFBE2E;
+}
+
+/* sidebar */
+.nav-stacked{
+	color: white;
+	background-color: #95D0E5;
+}
+.nav-stacked > li{
+}
+.mav-stacked >li >a{
+}
+.nav-stacked > li > a:hover,
+.nav-stacked > li > a:focus{
+	color: white;
+	background-color: #1B1B5E;
+}
+
+
+
+
+
+
+
+
+/* Carousel */
+.carousel-caption{
+    text-shadow: 2px 2px 10px #000000;
+	    background-image: -webkit-linear-gradient(270deg,rgba(27,27,94,1.00) 0%,rgba(15,15,55,1.00) 100%,rgba(19,19,67,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(27,27,94,1.00) 0%,rgba(15,15,55,1.00) 100%,rgba(19,19,67,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(27,27,94,1.00) 0%,rgba(15,15,55,1.00) 100%,rgba(19,19,67,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(27,27,94,1.00) 0%,rgba(15,15,55,1.00) 100%,rgba(19,19,67,1.00) 100%);
+}
+.col-lg-offset-2{
+	
+	color: #1B1B5E;
+}
+table{
+	color: #1B1B5E;
+}
